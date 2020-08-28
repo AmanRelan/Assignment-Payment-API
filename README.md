@@ -1,4 +1,4 @@
-**PROJECT DOCUMENTATION
+**PROJECT DOCUMENTATION**
 
 Ruby Version Used:- 2.7.1
 
@@ -7,14 +7,14 @@ Rails Version :- Rails 6.0.3.2
 ENV:- rvm 1.29.10
 
 To Get this project Up and Running, just go through to your project directory and run 
-```Bundle install``` **Assuming bundler, rubies are already installed
+```Bundle install``` **Assuming bundler, rubies are already installed**
 
 Then, next step would be to setup Database Migrations.
 Just run ```rake db:setup``` in the project directory.
 
 Once Everything is installed and migrations are successfully migrated, run ```rails s``` to run the rails server and using any API testing tool, you can check any API(s). 
 
-**API DOCUMENTATION
+**API DOCUMENTATION**
 
 API NAME:- REGISTRATIONS API/ Create a new User
 
@@ -79,7 +79,7 @@ Request Type:- DELETE
 
 Parameters for the API:- email, password
 
-Headers for the API:- uid, access-token, client **won't work if any header is missing, will throw 401
+Headers for the API:- uid, access-token, client **won't work if any header is missing, will throw 401**
 
 Response:-
 
@@ -98,7 +98,7 @@ Request Type:- POST
 
 Parameters for the API:- amount, currency, card_number, card_expiry_month, card_expiration_year, card_type, user_id
 
-Headers for the API:- uid, access-token, client **won't work if any header is missing, will throw 401
+Headers for the API:- uid, access-token, client **won't work if any header is missing, will throw 401**
 
 Response:-
 
@@ -128,7 +128,7 @@ Request Type:- GET
 
 Parameters for the API:- None
 
-Headers for the API:- uid, access-token, client **won't work if any header is missing, will throw 401
+Headers for the API:- uid, access-token, client **won't work if any header is missing, will throw 401**
 
 Response:-
 
@@ -192,7 +192,7 @@ If no data is available or no subscription/payments made yet
 }
 ```
 
-**TESTs DOCUMENTATION
+**TESTs DOCUMENTATION**
 
 Tool Used:- `Rspec`
 To check all the unit tests, cd to the project directory and execute command: 
