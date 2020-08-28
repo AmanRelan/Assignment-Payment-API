@@ -16,7 +16,7 @@ Once Everything is installed and migrations are successfully migrated, run ```ra
 
 **API DOCUMENTATION**
 
-API NAME:- REGISTRATIONS API/ Create a new User
+API NAME:- `REGISTRATIONS API/ Create a new User`
 
 API Endpoint:- '/auth'
 
@@ -45,7 +45,7 @@ Response:-
 }
 ```
 
-API Name:-  Sessions API/ Sign in a User
+API Name:-  `Sessions API/ Sign in a User`
 
 API Endpoint:- 'auth/sign_in'
 
@@ -71,7 +71,7 @@ Response:-
 }
 ```
 
-API Name:- DESTROY SESSION/ Signs out a User
+API Name:- `DESTROY SESSION/ Signs out a User`
 
 API Endpoint:- '/auth/sign_out'
 
@@ -90,7 +90,7 @@ Response:-
 ```
 
 
-API Name:- Create Subscriptions(Naming Should have been payments)/ Make payments
+API Name:- `Create Subscriptions(Naming Should have been payments)/ Make payments`
 
 API Endpoint:- '/subscriptions'
 
@@ -120,7 +120,7 @@ Response:-
 ```
 
 
-API Name:- View All Subscriptions of the current logged in user
+API Name:- `View All Subscriptions of the current logged in user`
 
 API Endpoint:- '/subscriptions'
 
