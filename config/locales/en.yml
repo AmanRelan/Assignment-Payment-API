@@ -1,0 +1,11 @@
+en:
+  activerecord:
+    errors:
+      models:
+        subscription:
+          attributes:
+            card_number:
+              blank: "is required"
+            card_expiry_month:
+              blank: "is required"
+              
